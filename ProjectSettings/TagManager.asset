@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 4104927081
+    locked: 0
+  - name: Floor
+    uniqueID: 104722381
+    locked: 0
+  - name: Rooms
+    uniqueID: 1887925933
+    locked: 0
+  - name: Fornitures
+    uniqueID: 526720669
+    locked: 0
+  - name: Characters
+    uniqueID: 2076120617
+    locked: 0
+  - name: Props
+    uniqueID: 100807443
+    locked: 0
+  - name: Effects
+    uniqueID: 1675000935
+    locked: 0
+  - name: UIWorld
+    uniqueID: 3049095747
+    locked: 0
+  - name: UI
+    uniqueID: 3027147621
+    locked: 0
+  m_RenderingLayers:
+  - Default
