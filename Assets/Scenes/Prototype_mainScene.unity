@@ -517,6 +517,99 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &719611105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 719611106}
+  - component: {fileID: 719611109}
+  - component: {fileID: 719611108}
+  m_Layer: 0
+  m_Name: Test
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &719611106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719611105}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &719611108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719611105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474b52073d5a99e448ca5a2df56a98b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+--- !u!114 &719611109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719611105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf14bae052b43fd4aa52c29efeb91904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RunManager
+  _initialReaders: 1000
+  _initialCredibility: 50
+  _allJournalists:
+  - {fileID: 11400000, guid: 7b81ca0389bb0824991b1841c1d5a3d2, type: 2}
+  - {fileID: 11400000, guid: 9fc47e245e139ed49a0afd0d8afdaf2f, type: 2}
+  - {fileID: 11400000, guid: 508df3787339ba44f986c0c17c15b95c, type: 2}
+  _hiringCandidatesCount: 5
+  _numberOfHiringJournalists: 2
+  _allNews:
+  - {fileID: 11400000, guid: e901ee7f182ed8041833aab25418f01b, type: 2}
+  - {fileID: 11400000, guid: 8cd1e5d9069a3224b85077b504c825b0, type: 2}
+  - {fileID: 11400000, guid: dd9a2ffa3423dff4dba2cac29bc3c8e3, type: 2}
+  _newsPerDay: 3
+  _debugSelectedJournalists:
+  - {fileID: 11400000, guid: 7b81ca0389bb0824991b1841c1d5a3d2, type: 2}
+  - {fileID: 11400000, guid: 9fc47e245e139ed49a0afd0d8afdaf2f, type: 2}
+  _session:
+    _dayState:
+      _currentDayNews:
+      - {fileID: 11400000, guid: dd9a2ffa3423dff4dba2cac29bc3c8e3, type: 2}
+      - {fileID: 11400000, guid: 8cd1e5d9069a3224b85077b504c825b0, type: 2}
+      - {fileID: 11400000, guid: e901ee7f182ed8041833aab25418f01b, type: 2}
+      _assignments: []
+    _runState:
+      _dayNumber: 3
+      _readers: 1421
+      _credibility: 70
+      _hiredJournalists:
+      - sourceData: {fileID: 11400000, guid: 7b81ca0389bb0824991b1841c1d5a3d2, type: 2}
+        isAssignedToday: 0
+      - sourceData: {fileID: 11400000, guid: 9fc47e245e139ed49a0afd0d8afdaf2f, type: 2}
+        isAssignedToday: 0
+      _currentHiringCandidates:
+      - {fileID: 11400000, guid: 9fc47e245e139ed49a0afd0d8afdaf2f, type: 2}
+      - {fileID: 11400000, guid: 7b81ca0389bb0824991b1841c1d5a3d2, type: 2}
+      - {fileID: 11400000, guid: 508df3787339ba44f986c0c17c15b95c, type: 2}
 --- !u!1 &771069289
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,3 +1231,4 @@ SceneRoots:
   - {fileID: 552359775}
   - {fileID: 1206450460}
   - {fileID: 1721157242}
+  - {fileID: 719611106}

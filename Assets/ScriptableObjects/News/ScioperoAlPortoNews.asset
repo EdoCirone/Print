@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: db963ac9df63ef549a020e0cca869bc5, type: 3}
-  m_Name: NewsData
+  m_Name: ScioperoAlPortoNews
   m_EditorClassIdentifier: Assembly-CSharp::NewsData
-  id: 
-  newsTitle: 
-  description: 
+  id: ScioperoAlPorto
+  newsTitle: sciopero al porto
+  description: lavoratori chiedono aumento
   topic: 0
-  popularity: 0
+  popularity: 80
   politicalWeight: 0
-  risk: 0
+  risk: 70
